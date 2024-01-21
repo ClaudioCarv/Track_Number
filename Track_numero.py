@@ -16,7 +16,7 @@ while True: #comando de repetição
     print('\033[1;32mRastreador de número\033[m'.center(80))
     print('\033[32m-=-=-=-=-=-=-\033[m'.center(80))
 
-    print('\033[33m\nExemplo: +55 83 991711561\033[m')
+    print('\033[33m\nExemplo: +55 83 999996665\033[m')
 
     telefone = phonenumbers.parse(input('\033[1;32m\nDigite um numero aqui: \033[m').replace('-', ''))
     print('\033[1;32m{} está localizado em\033[m \033[1;33m{}\033[m'.format(telefone,geocoder.description_for_number(telefone,'en')))
